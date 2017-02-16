@@ -7,11 +7,11 @@ Removes padding from svg files. Requires [PhantomJS](http://phantomjs.org/).
 ```
     before.svg         after.svg
 +----------------+
-|                |     +-------+
+|                |     ._______.
 |    \  O  /     |     |\  O  /|
 |     `-|-'      | ==> | `-|-' |
 |      <->       |     |  <->  |
-|                |     +-------+
+|                |     `▔▔▔▔▔▔▔` 
 +----------------+
 ```
 
