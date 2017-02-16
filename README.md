@@ -4,13 +4,20 @@ Removes padding from svg files. Requires [PhantomJS](http://phantomjs.org/).
 
 ## Demo
 
-Before:
+```
+    before.svg         after.svg
++----------------+
+|                |     +-------+
+|    \  O  /     |     |\  O  /|
+|     `-|-'      | ==> | `-|-' |
+|      <->       |     |  <->  |
+|                |     +-------+
++----------------+
+```
 
-<img style="border: 1px solid red;" width="100px" src="https://rawgit.com/cronfy/f87891a355c6db8432e2c6dbe47b02d7/raw/8971395fbfcd21062ea2481f2c3eba19118cd810/icon-padding.svg">
-
-After:
-
-<img style="border: 1px solid red;" width="100px" src="https://rawgit.com/cronfy/e3b1df6b31c709910a9fd4ce8aab45f0/raw/485161c2f29dd33ac1a77f983a1a8175b0106651/icon-no-padding.svg">
+Or see these examples:
+[before.svg](https://gist.github.com/cronfy/f87891a355c6db8432e2c6dbe47b02d7),
+[after.svg](https://gist.github.com/cronfy/e3b1df6b31c709910a9fd4ce8aab45f0).
 
 ## Installation
 
